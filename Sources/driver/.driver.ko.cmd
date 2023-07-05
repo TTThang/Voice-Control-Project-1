@@ -1,0 +1,1 @@
+cmd_/home/thang/Project_1/driver/driver.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/thang/Project_1/driver/driver.ko /home/thang/Project_1/driver/driver.o /home/thang/Project_1/driver/driver.mod.o;  true

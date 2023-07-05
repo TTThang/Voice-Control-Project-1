@@ -1,0 +1,1 @@
+cmd_/home/thang/Project_1/driver/Module.symvers :=  sed 's/ko$$/o/'  /home/thang/Project_1/driver/modules.order | scripts/mod/modpost -m -a    -o /home/thang/Project_1/driver/Module.symvers -e -i Module.symvers -T - 
